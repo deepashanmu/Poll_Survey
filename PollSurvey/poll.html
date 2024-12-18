@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poll System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Create Poll</h1>
+  <form id="poll-form">
+    <input type="text" id="question" placeholder="Question">
+    <ul id="options">
+      <li><input type="text" class="option" placeholder="Option 1"></li>
+      <li><input type="text" class="option" placeholder="Option 2"></li>
+      <li><input type="text" class="option" placeholder="Option 3"></li>
+    </ul>
+    <button id="create-poll">Create Poll</button>
+  </form>
+  
+  <div id="poll-results">
+    <h2>Results</h2>
+    <ul id="result-options"></ul>
+  </div>
+
+  <script src="poll.js"></script>
+</body>
+</html>
